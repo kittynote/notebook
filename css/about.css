@@ -47,6 +47,9 @@ html {
   width: 40px;
 }
 
+.pad30px {
+  padding: 30px;
+}
 .pad10030px {
   padding: 100px 30px;
 }
