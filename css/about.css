@@ -190,10 +190,10 @@ html {
 
 .privacy-content p {
   line-height: 24px;
+  word-wrap: break-word;
 }
 .privacy-content h2 {
   font-size: 24px;
-  word-wrap: break-word;
 }
 .privacy-content .sub-title {
   font-weight: 600;
@@ -206,7 +206,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 1065px) {
+@media (max-width: 1065px) {
   .app-header {
     padding-bottom: 0;
   }
@@ -248,5 +248,18 @@ html {
     justify-content: space-between;
     gap: 0;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .ctn-imgs-load .box-shadow {
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+  .ctn-imgs-load img {
+    max-width: calc(50% - 20px);
+  }
+  .ctn-imgs-load .item-jump {
+    margin-top: 50px;
   }
 }
