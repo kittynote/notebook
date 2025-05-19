@@ -115,11 +115,6 @@ html {
 .area-txt p {
   line-height: 30px;
 }
-.area-txt .larger-para {
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: bold;
-}
 
 .area-images {
   flex-grow: 1;
@@ -157,10 +152,15 @@ html {
 }
 
 .box-ctn-pink {
-  padding: 40px 20px;
   border-radius: 20px;
   overflow: hidden;
   background: #fef;
+}
+.box-ctn-pink .larger-para {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  padding-left: 20px;
 }
 
 .bg-light-pink {
@@ -239,8 +239,8 @@ html {
     transform: translateX(-50%);
   }
 
-  .ctn-load-1img {
-    margin-bottom: 20px;
+  .box-ctn-pink .larger-para {
+    padding: 15px;
   }
 
   .page-footer {
