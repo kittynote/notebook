@@ -193,6 +193,7 @@ html {
 }
 .privacy-content h2 {
   font-size: 24px;
+  word-wrap: break-word;
 }
 .privacy-content .sub-title {
   font-weight: 600;
