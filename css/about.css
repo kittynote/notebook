@@ -227,11 +227,7 @@ html {
     transform: translateX(-50%);
   }
   .ctn-imgs-load img {
-    max-width: calc(50% - 20px);
-  }
-  .ctn-imgs-load .box-shadow {
-    margin: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+    max-width: calc(50% - 40px);
   }
   .ctn-imgs-load .item-jump {
     margin-top: 40px;
