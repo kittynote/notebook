@@ -1,1 +1,252 @@
+body,
+html,
+img,
+video,
+button,
+h1, h2,
+p {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
 
+button {
+  border: none;
+  background-color: #fff;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  image-orientation: from-image;
+  display: block;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+  background: #fff;
+  font-size: 18px;
+  font-family: Arial, sans-serif, Helvetica, Verdana;
+}
+
+.sec-content-center {
+  max-width: 1195px;
+  margin: 0 auto;
+}
+
+.app-header {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.app-header img {
+  width: 40px;
+}
+
+.pad10030px {
+  padding: 100px 30px;
+}
+.pad6030px {
+  padding: 60px 30px;
+}
+
+.container-2column {
+  display: flex;
+}
+
+.area-txt-mode1 {
+  flex-basis: 500px;
+  align-self: center;
+}
+.area-txt-mode1 .title-big {
+  display: inline-block;
+  background-image: linear-gradient(to right, #ff14de 11.34%, #a033ff 58.82%, #ffd400 85.29%);
+  background-size: 150%;
+  background-position-x: 0px;
+  color: transparent;
+  background-clip: text;
+  font-size: 60px;
+  animation: move-bg 6s ease-out infinite alternate;
+}
+.area-txt-mode1 p {
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.area-images-mode1 {
+  flex-grow: 1;
+}
+.area-images-mode1 .image-2 {
+  width: 36%;
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+}
+.area-images-mode1 .ctn-imgs {
+  position: relative;
+  max-width: 635px;
+}
+
+.area-txt {
+  align-self: center;
+  max-width: 420px;
+  flex-shrink: 0;
+  word-wrap: break-word;
+}
+.area-txt .title {
+  margin: 20px 0;
+  font-size: 50px;
+  color: #191919;
+  display: inline-block;
+}
+.area-txt .sub-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #e389f7;
+  margin-bottom: 10px;
+}
+.area-txt p {
+  line-height: 30px;
+}
+.area-txt .larger-para {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.area-images {
+  flex-grow: 1;
+}
+
+.ctn-imgs-load {
+  overflow: hidden;
+}
+.ctn-imgs-load img {
+  max-width: calc(50% - 80px);
+}
+.ctn-imgs-load.right img {
+  float: right;
+}
+.ctn-imgs-load.left img {
+  float: left;
+}
+.ctn-imgs-load .box-shadow {
+  margin: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+}
+.ctn-imgs-load .item-jump {
+  margin-top: 70px;
+}
+
+.border-device {
+  padding: 3px;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-ctn-pink {
+  padding: 40px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff7ff;
+}
+
+.bg-light-pink {
+  background-color: #fffbff;
+}
+
+.footer-wrap-links {
+  line-height: 48px;
+  padding: 0 14px;
+  border-radius: 30px;
+  background-color: #f7f8f9;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.footer-wrap-links a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #04b5de;
+}
+.footer-wrap-links a:first-child {
+  margin: 0;
+}
+
+.privacy-content p {
+  line-height: 24px;
+}
+.privacy-content h2 {
+  font-size: 24px;
+}
+.privacy-content .sub-title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+@keyframes move-bg {
+  to {
+    background-position-x: -160px;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .app-header {
+    padding-bottom: 0;
+  }
+
+  .container-2column {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container-2column .area-images {
+    order: -1;
+  }
+
+  .ctn-imgs-load {
+    display: inline-table;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ctn-imgs-load img {
+    max-width: calc(50% - 20px);
+  }
+  .ctn-imgs-load .box-shadow {
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+  .ctn-imgs-load .item-jump {
+    margin-top: 40px;
+  }
+
+  .area-images-mode1 .center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ctn-load-1img {
+    margin-bottom: 20px;
+  }
+
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    font-size: 12px;
+  }
+}
