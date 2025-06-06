@@ -57,6 +57,12 @@ html {
   padding: 60px 30px;
 }
 
+.h300 {
+  font-size: .75rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
 .container-2column {
   display: flex;
 }
@@ -78,6 +84,57 @@ html {
 .area-txt-mode1 p {
   margin-top: 50px;
   line-height: 30px;
+}
+
+.download-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.download-button a.button {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: hsl(0, 0%, 21%);
+  border: 1px solid hsl(0, 0%, 86%);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+}
+.download-button .icon-medium {
+  width: 18px;
+  margin-right: 0.5em;
+}
+.download-button-content {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.download-button-header {
+  font-size: 0.7rem;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.download-button-text {
+  font-size: 1.2rem;
+}
+.download-button-meta {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: #4a4a4a;
 }
 
 .area-images-mode1 {
