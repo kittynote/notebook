@@ -38,7 +38,7 @@ html {
 }
 
 .app-header {
-  padding: 40px;
+  padding: 40px 30px;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -332,5 +332,6 @@ html {
     margin-top: 50px;
   }
 }
+
 
 
