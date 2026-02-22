@@ -63,6 +63,10 @@ html {
   font-weight: 500;
 }
 
+.kt-des-invisi {
+  display: none;
+}
+
 .container-2column {
   display: flex;
 }
@@ -328,3 +332,4 @@ html {
     margin-top: 50px;
   }
 }
+
