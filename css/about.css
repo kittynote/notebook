@@ -86,11 +86,15 @@ html {
   line-height: 30px;
 }
 
-.download-button {
+.download-box {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 10px;
+  gap: 10px;
+}
+.download-button {
+
 }
 .download-button a.button {
   display: inline-flex;
@@ -113,7 +117,7 @@ html {
   width: 18px;
   margin-right: 0.5em;
 }
-.download-button-content {
+.download-button .button-content {
   display: inline-flex;
   flex-direction: column;
   text-align: left;
@@ -121,20 +125,21 @@ html {
   line-height: 1;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.download-button-header {
+.download-button .button-header {
   font-size: 0.7rem;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-.download-button-text {
+.download-button .button-text {
   font-size: 1.2rem;
 }
-.download-button-meta {
+.download-require-ver {
   font-size: 0.7rem;
   font-weight: 500;
   margin-top: 0.5rem;
   color: #4a4a4a;
+  text-align: center;
 }
 
 .area-images-mode1 {
