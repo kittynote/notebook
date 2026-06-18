@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Nền bo góc tròn nhẹ tinh tế, màu xám nhạt đồng bộ với website của bạn -->
+  <rect width="512" height="512" rx="120" fill="#f4f6f8"/>
+
+  <!-- Nhóm hình vẽ chú mèo được canh chính giữa -->
+  <g transform="translate(0, 5)">
+    <!-- Đường viền đầu mèo: Phong cách liền mạch, nét dày chuẩn Snapchat -->
+    <path d="M 140 180 
+             C 120 120, 190 110, 210 140 
+             C 230 145, 282 145, 302 140 
+             C 322 110, 392 120, 372 180 
+             C 415 250, 390 350, 256 350 
+             C 122 350, 97 250, 140 180 Z" 
+          fill="none" 
+          stroke="#1a202c" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- Mắt trái -->
+    <circle cx="205" cy="235" r="16" fill="#1a202c"/>
+
+    <!-- Mắt phải -->
+    <circle cx="307" cy="235" r="16" fill="#1a202c"/>
+
+    <!-- Miệng cười tối giản tinh tế -->
+    <path d="M 236 265 Q 256 285 276 265" 
+          fill="none" 
+          stroke="#1a202c" 
+          stroke-width="14" 
+          stroke-linecap="round"/>
+  </g>
+</svg>
